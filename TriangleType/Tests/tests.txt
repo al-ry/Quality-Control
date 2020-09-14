@@ -1,0 +1,36 @@
+one
+Incorrect arguments count were specified. Arguments should be: triangle.exe <vertex1><vertex2><vertex3>
+too fewParams
+Incorrect arguments count were specified. Arguments should be: triangle.exe <vertex1><vertex2><vertex3>
+too many params specified
+Incorrect arguments count were specified. Arguments should be: triangle.exe <vertex1><vertex2><vertex3>
+""
+Incorrect arguments count were specified. Arguments should be: triangle.exe <vertex1><vertex2><vertex3>
+"" "" ""
+Arguments should be float numbers
+"when" "wrong" "params"
+Arguments should be float numbers
+-5 10 10
+Vertices must be greater than 0
+-8.566 8 -11.66
+Vertices must be greater than 0
+4 3 5
+Triangle is common
+4.5 3.5 5.5
+Triangle is common
+1, 5, 8
+That is not triangle
+11, 11, 22
+That is not triangle
+5, 8, 1
+That is not triangle
+8, 5, 1
+That is not triangle
+5 5 5
+Triangle is equilateral
+0.5 0.5 0.5
+Triangle is equilateral
+5 5 8
+Triangle is isosceles
+0.8 0.5 0.5
+Triangle is isosceles
