@@ -17,3 +17,6 @@ Test 15: success
 Test 16: success
 Test 17: success
 Test 18: success
+Test 19: success
+Test 20: success
+Test 21: success

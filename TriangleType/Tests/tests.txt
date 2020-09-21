@@ -34,3 +34,9 @@ Triangle is equilateral
 Triangle is isosceles
 0.8 0.5 0.5
 Triangle is isosceles
+1,7976931348623157E+308 1,7976931348623157E+308 1,8976931348623157E+308
+That is not triangle
+ffff eff3 eb90
+Arguments should be float numbers
+1.867e38 1.867e38 1.867e38
+Triangle is equilateral

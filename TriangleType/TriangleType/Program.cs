@@ -56,6 +56,10 @@ namespace TriangleType
             {
                 throw new FormatException("Arguments should be float numbers");
             }
+            catch (OverflowException)
+            {
+                throw new FormatException("Error");
+            }
         }
         private static TriangleType DefineTriangleType(float vertex1, float vertex2, float vertex3)
         {
