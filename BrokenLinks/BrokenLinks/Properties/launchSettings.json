@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BrokenLinks": {
+      "commandName": "Project",
+      "commandLineArgs": "http://91.210.252.240/broken-links/"
+    }
+  }
+}

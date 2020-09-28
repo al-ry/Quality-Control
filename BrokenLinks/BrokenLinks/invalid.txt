@@ -1,0 +1,13 @@
+﻿http://91.210.252.240/links/502gateaway502.php	Status code: 502
+http://91.210.252.240/links/access401unauthorized.php	Status code: 401
+http://91.210.252.240/links/deny403forbidden.php	Status code: 403
+http://91.210.252.240/links/locked.php	Status code: 423
+http://91.210.252.240/links/un503availible.php	Status code: 503
+http://91.210.252.240/links/return500bad.php	Status code: 500
+http://91.210.252.240/links/teapot418.php	Status code: 500
+http://91.210.252.240/links/movedper.php	Status code: 301
+http://91.210.252.240/links/found302.php	Status code: 302
+http://91.210.252.240/links/404not404found404.php	Status code: 404
+
+Invalid links count: 10
+Check out date: 28.09.2020 7:01:28
