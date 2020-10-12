@@ -52,13 +52,39 @@ namespace BrokenLinks
                 {
                     m_validLinks.Add(link.AbsoluteUri, statusCode);
                     List<string> newLinks = FindAllLinksInHTML(HTML);
-                    PushLinksInQueue(newLinks, link);
+                    if(CheckIsInSourceDomain(link))
+                    {
+                        PushLinksInQueue(newLinks, link);
+                    }
                 }
                 else
                 {
                     m_invalidLinks.Add(link.AbsoluteUri, statusCode);
                 }
             }
+        }
+
+        static int SendReqToOtherResource(Uri link)
+        {
+            int result;
+            HttpWebRequest req;
+            HttpWebResponse res;
+            try
+            {
+                req = WebRequest.Create(link) as HttpWebRequest;
+                res = req.GetResponse() as HttpWebResponse;
+            }
+            catch (WebException e)
+            {
+                res = e.Response as HttpWebResponse;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Unexpected error");
+            }
+
+            result = (int)res.StatusCode;
+            return result;
         }
 
         private static void GetHtmlFromLink(Uri link, out string HTML, out int statusCode)
@@ -112,7 +138,7 @@ namespace BrokenLinks
                 result = ConcatenateLinks(link, parent);
                 if (result != null)
                 {
-                    if (CheckIsInSourceDomain(result) && !IsAlreadyInQueue(result))
+                    if (!IsAlreadyInQueue(result))
                     {
                         m_uris.Enqueue(result);
                     }
@@ -146,6 +172,10 @@ namespace BrokenLinks
                     Uri newURL = new Uri(parent, relativeURL);
                     result = newURL;
                 }
+                if (!IsCorrectSchema(result))
+                {
+                    return null;
+                }
             }
             catch (Exception)
             {
@@ -153,6 +183,26 @@ namespace BrokenLinks
             }
 
             return result;
+        }
+        private static bool IsCorrectSchema(Uri link)
+        {
+            if (link == null)
+            {
+                return false;
+            }
+            if (link.Scheme == "tel")
+            {
+                return false;
+            }
+            if (link.Scheme == "mailto")
+            {
+                return false;
+            }
+            if (link.Scheme == "file")
+            {
+                return false;
+            }
+            return true;
         }
         private static bool IsSuccessStatusCode(int statusCode)
         {
@@ -201,7 +251,6 @@ namespace BrokenLinks
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                throw;
             }
         }
         static public void WriteValidLinksToFile(Dictionary<string, int> linksList)

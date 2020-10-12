@@ -10,4 +10,4 @@ http://91.210.252.240/links/found302.php	Status code: 302
 http://91.210.252.240/links/404not404found404.php	Status code: 404
 
 Invalid links count: 10
-Check out date: 28.09.2020 7:01:28
+Check out date: 28.09.2020 12:52:51

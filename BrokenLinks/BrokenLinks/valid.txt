@@ -6,7 +6,8 @@ http://91.210.252.240/broken-links/pricing.html	Status code: 200
 http://91.210.252.240/broken-links/blog.html	Status code: 200
 http://91.210.252.240/broken-links/contact.html	Status code: 200
 http://91.210.252.240/broken-links/blog-single.html	Status code: 200
+https://colorlib.com/	Status code: 200
 http://91.210.252.240/links/no204content.php	Status code: 204
 
-Valid links count: 9
-Check out date: 28.09.2020 7:01:28
+Valid links count: 10
+Check out date: 28.09.2020 12:52:51
