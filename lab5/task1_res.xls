@@ -1,0 +1,40 @@
+Font	Size	Font style	Underline	Font color	Underline style	Underline color	Strikethrough	Double strikethrough	SuperScript	Subscript	Small Caps	All Caps	Eqaulize Character Height	Offset
+Times New Roman	12.5	Bold Italic	true	Green	Single line	Red	true	false	true	false	true	false	false	100
+Calibri	12.5	Bold Italic	false	Yellow	Single line	Green	false	true	false	true	false	true	false	-100
+Times New Roman	4000	Bold Italic	true	Red	Single line	Automatic	false	true	false	false	true	false	false	0
+Arial	20	Bold Italic	true	Automatic	Single line	Yellow	false	false	true	false	false	false	true	50
+Arial	12.5	Regular	false	Green	Double line	Yellow	true	false	false	true	true	false	true	-100
+Arial	4000	Bold	true	Red	Double line	Green	false	false	true	false	false	true	true	100
+Times New Roman	12.5	Italic	false	Yellow	Single line	Green	true	false	false	true	false	true	true	-50
+Calibri	12.5	Regular	false	Green	Single line	Yellow	true	false	false	false	false	false	true	0
+Calibri	4000	Regular	true	Automatic	none	none	false	true	false	true	true	false	false	-50
+Times New Roman	1	Bold	false	Automatic	Single line	Red	false	true	false	true	false	true	true	-1
+Verdana	20	Italic	false	Green	none	none	false	true	true	false	true	false	false	100
+Verdana	12.5	Regular	false	Red	Single line	Green	true	false	false	true	true	false	true	-1
+Times New Roman	20	Regular	false	Yellow	Single line	Red	false	false	true	false	true	false	true	50
+Courier	1	Regular	false	Green	none	none	true	false	false	true	true	false	false	-100
+Times New Roman	4000	Bold	true	Yellow	Single line	Automatic	true	false	true	false	true	false	false	1
+Times New Roman	20	Bold	true	Automatic	Single line	Automatic	true	false	false	true	false	true	false	-100
+Calibri	20	Italic	true	Yellow	Single line	Green	true	false	false	false	false	true	false	0
+Courier	12.5	Italic	false	Automatic	Single line	Automatic	false	true	false	false	false	true	true	0
+Courier	20	Regular	false	Red	Double line	Red	false	true	false	true	false	true	true	-50
+Courier	1	Italic	true	Green	Single line	Green	true	false	true	false	false	true	true	50
+Calibri	1	Italic	true	Red	none	none	false	true	false	true	false	false	false	-1
+Courier	4000	Bold Italic	true	Automatic	Double line	Yellow	false	true	true	false	false	true	false	100
+Arial	20	Bold Italic	true	Automatic	Single line	Green	true	false	true	false	false	true	false	1
+Verdana	12.5	Regular	true	Automatic	Double line	Red	false	true	false	false	false	true	false	0
+Times New Roman	1	Bold Italic	true	Red	none	none	true	false	false	true	false	true	true	-1
+Arial	4000	Italic	true	Automatic	Double line	Red	false	false	false	true	true	false	true	-100
+Verdana	4000	Bold Italic	false	Automatic	none	none	true	false	true	false	false	true	false	50
+Arial	20	Bold Italic	false	Green	Single line	Automatic	true	false	false	true	false	true	true	-50
+Calibri	12.5	Bold	true	Red	Double line	Automatic	false	true	true	false	true	false	false	50
+Times New Roman	20	Italic	true	Red	Double line	Yellow	false	false	true	false	true	false	true	1
+Courier	20	Bold	false	Yellow	Single line	Yellow	false	true	false	true	false	true	false	-1
+Arial	4000	Italic	false	Green	Double line	Automatic	false	true	false	true	false	true	false	-1
+Verdana	20	Bold	false	Red	Single line	Automatic	true	false	false	true	false	true	true	-100
+Arial	1	Bold	false	Yellow	none	none	false	true	false	false	false	true	false	0
+Verdana	12.5	Bold Italic	true	Yellow	none	none	false	false	true	false	true	false	false	1
+Calibri	1	Regular	true	Yellow	Double line	Automatic	true	false	true	false	false	true	true	100
+Courier	1	Bold Italic	false	Red	Double line	Green	false	true	true	false	true	false	true	1
+Calibri	20	Regular	false	Green	Single line	Red	true	false	true	false	false	false	true	1
+Verdana	1	Bold	true	Green	Single line	Yellow	true	false	false	true	false	true	true	-50
